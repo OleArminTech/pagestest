@@ -16,7 +16,7 @@ app.use(express.static('./dist'));
 
 app.use('/', function (req, res) {
   //console.log("Connection request at: " + Date().toLocaleString())
-  res.sendFile(path.resolve('public/index.html'));
+  res.sendFile(path.resolve('index.html'));
 });
 
 let port = 3000;
