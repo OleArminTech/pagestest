@@ -2,7 +2,7 @@
   "name": "pagestest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://olearmintech.github.io/pagestest/",
+  "homepage": "https://olearmintech.github.io/reacttest/",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.5",

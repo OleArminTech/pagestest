@@ -8,7 +8,7 @@ class LinkOne extends Component {
       <div>
         Page one
         <br /><br />
-        <NavLink to="/" >Back</NavLink>
+        <NavLink to='/' >Back</NavLink>
       </div>
     )
   }

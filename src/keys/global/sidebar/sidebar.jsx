@@ -8,9 +8,9 @@ class Sidebar extends Component {
     return (
       <div>
         <div>
-          <NavLink to="pageone" >Page 1</NavLink>
+          <NavLink to='/pageone' >Page 1</NavLink>
           <br /><br />
-          <NavLink to="pagetwo" >Page 2</NavLink>
+          <NavLink to='/pagetwo' >Page 2</NavLink>
         </div>
       </div>
     )

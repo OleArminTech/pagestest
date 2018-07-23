@@ -8,7 +8,7 @@ class LinkTwo extends Component {
       <div>
         Page two
         <br /><br />
-        <NavLink to="/" >Back</NavLink>
+        <NavLink to='/' >Back</NavLink>
       </div>
     )
   }

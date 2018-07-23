@@ -8,7 +8,7 @@ import App from './app'
 
 
 render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route component={App} />
     </Switch>

@@ -10,11 +10,9 @@ class App extends Component {
   render(){
     return (
       <div>
-        Derp
-        <br /><br />
         <Switch>
-          <Route path="/pageone" component={LinkOne} />
-          <Route path="/pagetwo" component={LinkTwo} />
+          <Route path='/pageone' component={LinkOne} />
+          <Route path='/pagetwo' component={LinkTwo} />
           <Route component={Sidebar} />
         </Switch>
       </div>
