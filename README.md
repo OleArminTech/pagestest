@@ -1,2 +1,1 @@
-# pagestest
-Testing github pages
+Project for testing github pages
