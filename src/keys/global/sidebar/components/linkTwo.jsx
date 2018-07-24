@@ -3,12 +3,16 @@ import { NavLink } from 'react-router-dom'
 
 class LinkTwo extends Component {
 
+  click = () => {
+    this.props.history.push('/pagethree')
+  }
+
   render(){
     return (
       <div>
         Page two
         <br /><br />
-        <NavLink to='/pagethree' >Page 3</NavLink>
+        <button onClick={this.click}>Page 3</button>
         <br />
         <NavLink to='/' >Back</NavLink>
       </div>
