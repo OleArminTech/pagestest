@@ -8,6 +8,8 @@ class LinkTwo extends Component {
       <div>
         Page two
         <br /><br />
+        <NavLink to='/pagethree' >Page 3</NavLink>
+        <br />
         <NavLink to='/' >Back</NavLink>
       </div>
     )

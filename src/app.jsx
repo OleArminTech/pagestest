@@ -5,6 +5,8 @@ import Sidebar from './keys/global/sidebar/sidebar'
 import LinkOne from './keys/global/sidebar/components/linkOne'
 import LinkTwo from './keys/global/sidebar/components/linkTwo'
 
+import LinkThree from './keys/global/sidebar/components/linkThree'
+
 class App extends Component {
 
   render(){
@@ -13,6 +15,7 @@ class App extends Component {
         <Switch>
           <Route path='/pageone' component={LinkOne} />
           <Route path='/pagetwo' component={LinkTwo} />
+          <Route path='/pagethree' component={LinkThree} />
           <Route component={Sidebar} />
         </Switch>
       </div>
